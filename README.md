@@ -9,9 +9,11 @@ Baget nuget packages but able to run in openshift
 
 ## Env Variables
 
-ApiKey=NUGET-SERVER-API-KEY
-Storage__Type=FileSystem
-Storage__Path=/var/baget/packages
-Database__Type=Sqlite
-Database__ConnectionString=Data Source=/var/baget/baget.db
-Search__Type=Database
+| Key                        | Value                           |
+| -------------------------- | ------------------------------- |
+| ApiKey                     | NUGET-SERVER-API-KEY            |
+| Storage__Type              | FileSystem                      |
+| Storage__Path              | /var/baget/packages             |
+| Database__Type             | Sqlite                          |
+| Database__ConnectionString | Data Source=/var/baget/baget.db |
+| Search__Type               | Database                        |
